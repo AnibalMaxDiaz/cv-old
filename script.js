@@ -23,7 +23,12 @@ let perfil="profesional";
 let parrafo = document.querySelector(".parrafo-2");
 
 function cambiarTexto(nombre1, ciudad, perfil){
-let contenido=`Me llamo ${nombre1}, nací en ${ciudad}. Soy ingeniero de sistemas y tecnologo en telecomunicaciones, me gusta la tecnología el deporte y salir a pasear con mi familia. Me encantaría aprender a programar para poder mejorar mi perfil ${perfil} explotando mi creatividad y capacidades en pro de los demas.`;
+let contenido=`Me llamo ${nombre1}, nací en ${ciudad}, soy ingeniero de sistemas y
+tecnologo en telecomunicaciones, me gusta la tecnología el deporte
+y salir a pasear con mi familia. Me encanta la
+programación, mi ojetivo es poder mejorar mi perfil ${perfil} explotando mi creatividad y capacidades en pro de los demas.
+<b>"En las secciones mas adelante podrás ver mis logros y proyectos".</b>`;
+
 return contenido
 };
 parrafo.innerText = cambiarTexto(nombre1, ciudad, perfil);
