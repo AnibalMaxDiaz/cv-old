@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   /* background-color: rgb(185, 182, 182); */
   /* font-family: "Playpen Sans", cursive; */
-  background: url(/img/fondo.png)no-repeat center;
+  background: url(./img/fondo.png)no-repeat center;
   background-size: cover;
   /* font-family: 'DM Serif Display', serif; */
   /* font-family: 'Playpen Sans', cursive; */ 

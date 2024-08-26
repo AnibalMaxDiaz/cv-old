@@ -1,5 +1,5 @@
 // alert("Hola este es mi Javascript");
-let minombre="Aníbal";
+let minombre="ANIBAL MAX";
 console.log(minombre);
 // let listas=document.getElementsByTagName("li");
 // console.log(listas);
